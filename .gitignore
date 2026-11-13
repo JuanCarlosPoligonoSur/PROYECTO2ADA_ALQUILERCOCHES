@@ -1,0 +1,27 @@
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Maven
+/target/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+
+# Archivos temporales
+*.tmp
