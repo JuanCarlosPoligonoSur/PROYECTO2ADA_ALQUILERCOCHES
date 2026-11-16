@@ -1,0 +1,84 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #f3f6fb;
+}
+
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0d2d52;
+}
+
+.subtitle {
+    -fx-font-size: 18px;
+    -fx-text-fill: #365a7a;
+}
+
+.main-panel {
+    -fx-background-color: #ffffff;
+    -fx-padding: 30px;
+    -fx-spacing: 18px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+    -fx-effect: dropshadow(gaussian, rgba(11, 35, 62, 0.12), 12, 0.2, 0, 4);
+}
+
+.action-button {
+    -fx-background-color: #1d4e89;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 14px 22px;
+    -fx-background-radius: 12px;
+}
+
+.action-button:hover {
+    -fx-background-color: #163b66;
+}
+
+.secondary-button {
+    -fx-background-color: #2b6cb0;
+    -fx-text-fill: white;
+    -fx-padding: 10px 18px;
+    -fx-background-radius: 10px;
+}
+
+.form-grid {
+    -fx-hgap: 16px;
+    -fx-vgap: 12px;
+}
+
+.label-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0d2d52;
+}
+
+.field-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #234a6b;
+}
+
+.text-field, .text-area {
+    -fx-background-radius: 8px;
+    -fx-border-color: #ccd9eb;
+    -fx-border-radius: 8px;
+    -fx-padding: 7px 10px;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d8e1ee;
+    -fx-border-radius: 10px;
+}
+
+.table-column {
+    -fx-alignment: CENTER_LEFT;
+}
+
+.info-box {
+    -fx-background-color: #f8fbff;
+    -fx-border-color: #d7e8ff;
+    -fx-border-radius: 10px;
+    -fx-padding: 12px;
+}
